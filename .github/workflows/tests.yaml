@@ -15,5 +15,5 @@ jobs:
     - name: Install tools
       run: pdm install
     - name: Run tests
-      run: python3 tests/tests.py
+      run: python3 tests/test_code.py
       env: {"PYTHONPATH": "."}
