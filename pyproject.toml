@@ -20,3 +20,8 @@ build-backend = "pdm.backend"
 
 [tool.pdm]
 distribution = true
+
+[tool.ruff]
+show-fixes = true
+line-length = 120
+
